@@ -623,6 +623,8 @@ img {
 
 .modal-form-footer {
     margin-left: 80px;
+    display: flex;
+    gap: 24px;
 }
 
 .modal-form-submit-footer {
