@@ -605,6 +605,7 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
+    margin-left: 80px;
 }
 
 .footer-input {
@@ -617,8 +618,10 @@ img {
     cursor: pointer;
     transition: border var(--tra);
     color:#FFFFFF ;
-    background-color: #2E2F42;
-    
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .modal-form-footer {
@@ -629,7 +632,6 @@ img {
 
 .modal-form-submit-footer {
     background-color: #4D5AE5;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -638,6 +640,12 @@ img {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     margin-left: 24px;
+    min-width: 165px;
+    height: 40px;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
        
 }
 /**-------------- MODAL --------------*/
