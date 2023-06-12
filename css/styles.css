@@ -752,6 +752,10 @@ img {
     margin-bottom: 24px;
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
 .label-style {
     display: flex;
     flex-direction: column;
