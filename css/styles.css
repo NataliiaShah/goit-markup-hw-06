@@ -748,7 +748,7 @@ img {
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px
 }
 
 .label-style {
@@ -780,6 +780,9 @@ img {
     border-radius: 4px;
     outline: none;
     padding-left: 38px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color var(--tra);
 }
 
 .modal-input:focus {
@@ -795,6 +798,7 @@ img {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill var(--tra);
 }
 
 .text-input {
@@ -802,19 +806,20 @@ img {
     height: 120px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    outline: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     /* identical to box height, or 117% */
     letter-spacing: 0.04em;
     
     /* NAVY BLUE modal */
     color: rgba(46, 47, 66, 0.4);
-    padding-left: 16px;
-    padding-top: 8px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    transition: border-color var(--tra);
 }
 
 .text-input:focus {
@@ -837,7 +842,7 @@ textarea {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     /* or 117% */
     letter-spacing: 0.04em;
     
@@ -860,17 +865,20 @@ textarea {
 }
 
 .modal-check:checked + .check-text span {
-    background-color: #F4F4FD;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;;
 }
 
 .modal-check-span {
     margin-right: 8px;
+    transition: background-color var(--tra), fill var(--tra), border var(--tra);
+    display: inline-flex;
 }
 
 .privacy-link {
     text-decoration: underline;
+    color: #4d5ae5;;
 }
 
 .send {
@@ -889,6 +897,7 @@ textarea {
     cursor: pointer;
     transition: background-color var(--tra);
     margin: 24px auto;
+    letter-spacing: 0.04em;
 }
 
 /**---------Portfolio--------**/
