@@ -764,6 +764,8 @@ img {
     
     /* LIGHT SLATE */
     color: #8E8F99;
+    display: block;
+    margin-bottom: 4px;
 }
 
 .label-style span {
